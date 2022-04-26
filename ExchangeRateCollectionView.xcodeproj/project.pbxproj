@@ -13,6 +13,7 @@
 		3E5FACE82817DEFF00CA5185 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5FACE62817DEFF00CA5185 /* Main.storyboard */; };
 		3E5FACEA2817DF0000CA5185 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5FACE92817DF0000CA5185 /* Assets.xcassets */; };
 		3E5FACED2817DF0000CA5185 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5FACEB2817DF0000CA5185 /* LaunchScreen.storyboard */; };
+		3E5FACF52817E2AB00CA5185 /* RatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5FACF42817E2AB00CA5185 /* RatesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3E5FACE92817DF0000CA5185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E5FACEC2817DF0000CA5185 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E5FACEE2817DF0000CA5185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5FACF42817E2AB00CA5185 /* RatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3E5FACE92817DF0000CA5185 /* Assets.xcassets */,
 				3E5FACEB2817DF0000CA5185 /* LaunchScreen.storyboard */,
 				3E5FACEE2817DF0000CA5185 /* Info.plist */,
+				3E5FACF42817E2AB00CA5185 /* RatesVC.swift */,
 			);
 			path = ExchangeRateCollectionView;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E5FACF52817E2AB00CA5185 /* RatesVC.swift in Sources */,
 				3E5FACE52817DEFF00CA5185 /* ViewController.swift in Sources */,
 				3E5FACE12817DEFF00CA5185 /* AppDelegate.swift in Sources */,
 				3E5FACE32817DEFF00CA5185 /* SceneDelegate.swift in Sources */,
